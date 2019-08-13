@@ -2,7 +2,7 @@ class Gym
   attr_reader :name
   @@all = []
 
-  def initialize(name)
+  def initialize(name:)
     @name = name
     @@all << self
   end
@@ -11,5 +11,5 @@ class Gym
     @@all
   end
 
-  
+
 end

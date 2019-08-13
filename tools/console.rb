@@ -13,7 +13,10 @@ pure_gym = Gym.new("Pure Gym")
 equinox = Gym.new("Equinox")
 frame = Gym.new("Frame")
 
-
+will.sign_up(equinox,500)
+arnie.sign_up(fitness_first,350)
+chris.sign_up(pure_gym,25)
+the_rock.sign_up(virgin_active,100)
 
 
 binding.pry

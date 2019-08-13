@@ -13,10 +13,10 @@ superhans = Lifter.new(name: "Super Hans", lift_total: 2)
 ben = Lifter.new(name: "Super Ben", lift_total: 50)
 erin = Lifter.new(name: "Erin", lift_total: 10)
 
-gold_plan_to_golds_gym = Membership.new(cost: 500, plan_name: "Gold Plan", gym: goldsgym, lifter: erin)
-superhans_puregym_membership = Membership.new(cost: 30, plan_name: "Easy Breezy", gym: puregym, lifter: superhans)
-erins_virgin_membership = Membership.new(cost: 50, plan_name: "Basic Virgin Gym Membership", gym: virgin, lifter: erin)
-bens_puregym_membership = Membership.new(cost: 45, plan_name: "Upgrade Puregym", gym: puregym, lifter: ben)
+gold_plan_to_golds_gym = Membership.new(cost: 500, gym: goldsgym, lifter: erin)
+superhans_puregym_membership = Membership.new(cost: 30, gym: puregym, lifter: superhans)
+erins_virgin_membership = Membership.new(cost: 50, gym: virgin, lifter: erin)
+bens_puregym_membership = Membership.new(cost: 45, gym: puregym, lifter: ben)
 
 
 binding.pry
